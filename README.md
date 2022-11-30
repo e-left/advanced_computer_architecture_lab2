@@ -1,4 +1,4 @@
-# This repo serves as the report and codebase for Lab 1/3 for the Advanced Computer Architecture course, on the Electrical and Computer Engineering school of Aristotle University of Thessaloniki
+# This repo serves as the report and codebase for Lab 2/3 for the Advanced Computer Architecture course, on the Electrical and Computer Engineering school of Aristotle University of Thessaloniki
 
 Ανδρονίκου Δημήτρης, 9836
 
