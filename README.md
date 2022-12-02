@@ -372,6 +372,16 @@ As such, we can conclude that the CPI is largely impacted by cache line size (hi
 To Cost ορίζεται ως εξής:
 
 Cost = 10\*cost\_L1\_data + 10\*cost\_L1\_instr + cost\_L2 + 10\*cost\_L1\_data\_asso + 10\*cost\_L1\_inst\_asso + cost\_L2\_asso + cost\_line\_s
+όπου cost\_L1\_data = μέγεθος της L1 data 
+όπου cost\_L1\_instr = μέγεθος της L1 instruction
+όπου cost\_L2 = μέγεθος της L2
+όπου cost\_L1\_data\_asso = μέγεθος του L1 data associativity 
+όπου cost\_L1\_inst\_asso = μέγεθος του L1 instruction associativity 
+όπου cost\_L2\_asso = μέγεθος του L2 associativity 
+όπου cost\_line\_s = μέγεθος του cache line 
+
+το x10 το χρησιμοποιήσαμε διότι το κόστος της L1 είναι πολύ μεγαλύτερο από της L2
+
 ## Cost(run-i)
 
 |run1|2430|
