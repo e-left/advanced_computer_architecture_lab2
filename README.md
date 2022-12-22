@@ -28,62 +28,62 @@ cache line	cache\_line\_size=64
 #### Subquestion b
 
 ##### Specbzip
-1) χρόνο εκτέλεσης			*sim\_seconds  =  0.083982*
+1) execution time			*sim\_seconds  =  0.083982*
 1) CPI 					*system.cpu.cpi  =  1.679650*
 
-1) συνολικά miss rates για την L1 Instruction cache *system.cpu.icache.overall\_miss\_rate::total     0.000077*
+1) total miss rates for L1 Instruction cache *system.cpu.icache.overall\_miss\_rate::total     0.000077*
 
-1) συνολικά miss rates για την L1 Data cache *system.cpu.dcache.overall\_miss\_rate::total     0.014798*
+1) total miss rates for L1 Data cache *system.cpu.dcache.overall\_miss\_rate::total     0.014798*
 
-1) συνολικά miss rates για την L2 cache 
+1) total miss rates for L2 cache 
 
 *system.l2.overall\_miss\_rate::total           0.282163*
 
 ##### Specmcf
-1) χρόνο εκτέλεσης			*sim\_seconds  =  0.064955*
+1) execution time			*sim\_seconds  =  0.064955*
 1) CPI 					*system.cpu.cpi  =  1.299095*
 
-1) συνολικά miss rates για την L1 Instruction cache *system.cpu.icache.overall\_miss\_rate::total     0.023612*
+1) total miss rates for L1 Instruction cache *system.cpu.icache.overall\_miss\_rate::total     0.023612*
 
-1) συνολικά miss rates για την L1 Data cache *system.cpu.dcache.overall\_miss\_rate::total     0.002108*
+1) total miss rates for L1 Data cache *system.cpu.dcache.overall\_miss\_rate::total     0.002108*
 
-1) συνολικά miss rates για την L2 cache 
+1) total miss rates for L2 cache 
 
 *system.l2.overall\_miss\_rate::total           0.055046*
 
 ##### Spechmmer
-1) χρόνο εκτέλεσης			*sim\_seconds  =  0.059396*
+1) execution time			*sim\_seconds  =  0.059396*
 1) CPI 					*system.cpu.cpi  =  1.187917*
 
-1) συνολικά miss rates για την L1 Instruction cache *system.cpu.icache.overall\_miss\_rate::total     0.000221*
+1) total miss rates for L1 Instruction cache *system.cpu.icache.overall\_miss\_rate::total     0.000221*
 
-1) συνολικά miss rates για την L1 Data cache *system.cpu.dcache.overall\_miss\_rate::total     0.001637*
+1) total miss rates for L1 Data cache *system.cpu.dcache.overall\_miss\_rate::total     0.001637*
 
-1) συνολικά miss rates για την L2 cache 
+1) total miss rates for L2 cache 
 
 *system.l2.overall\_miss\_rate::total           0.077760*
 
 ##### Specsjeng
-1) χρόνο εκτέλεσης:			*sim\_seconds  =  0.513528*
+1) execution time:			*sim\_seconds  =  0.513528*
 1) CPI: 					*system.cpu.cpi  =  10.270554*
 
-1) συνολικά miss rates για την L1 Instruction cache: *system.cpu.icache.overall\_miss\_rate::total     0.000020*
+1) total miss rates for L1 Instruction cache: *system.cpu.icache.overall\_miss\_rate::total     0.000020*
 
-1) συνολικά miss rates για την L1 Data cache: *system.cpu.dcache.overall\_miss\_rate::total     0.121831*
+1) total miss rates for L1 Data cache: *system.cpu.dcache.overall\_miss\_rate::total     0.121831*
 
-1) συνολικά miss rates για την L2 cache: 
+1) total miss rates for L2 cache: 
 
 *system.l2.overall\_miss\_rate::total           0.999972*
 
 ##### Speclibm
-1) χρόνο εκτέλεσης:			*sim\_seconds  =  0.174671*
+1) execution time:			*sim\_seconds  =  0.174671*
 1) CPI: 					*system.cpu.cpi  =* *3.493415*
 
-1) συνολικά miss rates για την L1 Instruction cache: *system.cpu.icache.overall\_miss\_rate::total     0.000094*
+1) total rates for L1 Instruction cache: *system.cpu.icache.overall\_miss\_rate::total     0.000094*
 
-1) συνολικά miss rates για την L1 Data cache: *system.cpu.dcache.overall\_miss\_rate::total     0.060972*
+1) total rates for L1 Data cache: *system.cpu.dcache.overall\_miss\_rate::total     0.060972*
 
-1) συνολικά miss rates για την L2 cache: 
+1) total rates for L2 cache: 
 
 *system.l2.overall\_miss\_rate::total           0.999944*
 
@@ -114,27 +114,27 @@ cache line	cache\_line\_size=64
 
 ![](Aspose.Words.f3488851-f0ed-4cf6-b351-049795c663bc.001.png)
 
-1.	Ο χρόνος εκτέλεσης του specsjeng είναι πολύ μεγαλύτερος από των άλλων
+1.	execution time of specsjeng is much bigger than the others
 
 ![](Aspose.Words.f3488851-f0ed-4cf6-b351-049795c663bc.002.png)
 
-2.	Το CPI του specsjeng είναι πολύ μεγαλύτερο από των άλλων
+2.	CPI of specsjeng is much bigger than the others
 
 
 ![](Aspose.Words.f3488851-f0ed-4cf6-b351-049795c663bc.003.png)
 
-3.	Όμως το miss rate των instructions του specmcf είναι πολύ μεγαλύτερο από των άλλων
+3.	But miss rate of instructions of specmcf is much bigger than the others
 
 ![](Aspose.Words.f3488851-f0ed-4cf6-b351-049795c663bc.004.png)
 
-4.	Το miss rate των data του specsjeng είναι πολύ μεγαλύτερο από των άλλων
+4.	miss rate of data of specsjeng is much bigger than the others
 
 
 ![](Aspose.Words.f3488851-f0ed-4cf6-b351-049795c663bc.005.png)
 
-5.	Το miss rate στην L2 του specsjeng και του speclibm είναι πολύ μεγαλύτερα από των άλλων
+5.	miss rate in L2 of specsjeng and of speclibm is much bigger than the others
 
-Λόγω του 5 και του 4 είναι λογικό να προκύψει μεγάλο CPI για το specsjeng, άρα και μεγάλος χρόνος εκτέλεσης.
+Due to 5 and 4 it is reasonable to have a high CPI for specsjeng, hence a long runtime.
 
 #### Subquestion c
 
@@ -178,14 +178,14 @@ As we can observe from the table, in some cases the scaling is better than the o
 #### Subquestion d
 
 ##### Specbzip
-1) χρόνο εκτέλεσης:			*sim\_seconds  =  0.083609*
+1) execution time:			*sim\_seconds  =  0.083609*
 1) CPI: 					*system.cpu.cpi  =  1.672175*
 
-1) συνολικά miss rates για την L1 Instruction cache: *system.cpu.icache.overall\_miss\_rate::total     0.000077*
+1) total miss rates for L1 Instruction cache: *system.cpu.icache.overall\_miss\_rate::total     0.000077*
 
-1) συνολικά miss rates για την L1 Data cache: *system.cpu.dcache.overall\_miss\_rate::total     0.014795*
+1) total miss rates for L1 Data cache: *system.cpu.dcache.overall\_miss\_rate::total     0.014795*
 
-1) συνολικά miss rates για την L2 cache: 
+1) total miss rates for L2 cache: 
 
 *system.l2.overall\_miss\_rate::total           0.282159*
 
@@ -200,7 +200,7 @@ As we can observe from the table, in some cases the scaling is better than the o
 
 
 
-Παρατηρούμε ότι με την αύξηση της συχνότητας της μνήμη μειώνεται το miss rate για την L2 και την L1 data cache. Αυτό είναι λογικό διότι αυτές οι caches θα λαμβάνουν δεδομένα πιο γρήγορα, άρα θα έχουμε λιγότερα misses στον ίδιο χρόνο. Αυτό έχει επίδραση στο CPI, που είναι λογικό, και φυσικά το CPI όπως φάνηκε και προηγουμένως επηρεάζει σχεδόν ανάλογα τον χρόνο εκτέλεσης.
+We observe that with increasing the frequency of memory the miss rate for L2 and L1 data cache decreases. This makes sense because these caches will receive data faster, so we will have fewer misses in the same amount of time. This has an effect on CPI, which is reasonable, and of course CPI as shown before affects runtime almost proportionally.
 
 
 # Questions 2
@@ -363,31 +363,31 @@ Overall, we can see that we achieve the lowest CPI consistently across all bench
 As such, we can conclude that the CPI is largely impacted by cache line size (higher -> better CPI), impacted somewhat by associativity (higher -> better CPI) and is marginally impacted by cache sizes (higher -> better CPI in some cases).
 # Question 3
 
-Θέλουμε μια συνάρτηση Απόδοση/Κόστος, όπου Απόδοση = 1/CPI και Κόστος = Cost
+We want a function like Performance/Cost, where Performance = 1/CPI 
 
-Άρα η F = 1CPICost=1CPI\*Cost
+So  F = 1CPICost=1CPI\*Cost
 
-Θέλουμε να την μεγιστοποιήσουμε, άρα να ελαχιστοποιήσουμε το CPI\*Cost
+We want to maximize rhis function, thus to minimize the CPI\*Cost
 
-To Cost ορίζεται ως εξής:
+Cost is:
 
 Cost = 10\*cost\_L1\_data + 10\*cost\_L1\_instr + cost\_L2 + 10\*cost\_L1\_data\_asso + 10\*cost\_L1\_inst\_asso + cost\_L2\_asso + cost\_line\_s
 
-όπου cost\_L1\_data = μέγεθος της L1 data 
+where cost\_L1\_data = μέγεθος της L1 data 
 
-όπου cost\_L1\_instr = μέγεθος της L1 instruction
+where cost\_L1\_instr = μέγεθος της L1 instruction
 
-όπου cost\_L2 = μέγεθος της L2 (σε kB, άρα x1000)
+where cost\_L2 = μέγεθος της L2 (σε kB, άρα x1000)
 
-όπου cost\_L1\_data\_asso = μέγεθος του L1 data associativity 
+where cost\_L1\_data\_asso = μέγεθος του L1 data associativity 
 
-όπου cost\_L1\_inst\_asso = μέγεθος του L1 instruction associativity 
+where cost\_L1\_inst\_asso = μέγεθος του L1 instruction associativity 
 
-όπου cost\_L2\_asso = μέγεθος του L2 associativity 
+where cost\_L2\_asso = μέγεθος του L2 associativity 
 
-όπου cost\_line\_s = μέγεθος του cache line 
+where cost\_line\_s = μέγεθος του cache line 
 
-το x10 το χρησιμοποιήσαμε διότι το κόστος της L1 είναι πολύ μεγαλύτερο από της L2
+we use x10 because the cost of L1 is much bigger than the cost of L2
 
 ## Cost(run-i)
 
@@ -403,7 +403,7 @@ Cost = 10\*cost\_L1\_data + 10\*cost\_L1\_instr + cost\_L2 + 10\*cost\_L1\_data\
 |run9|6708|
 |run10|6776|
 
-Και το Cost = Cost /1000 (ώστε να είναι ίδια τάξη μεγέθους με το cpi) 
+And Cost = Cost /1000 (to be of the same order of magnitude as cpi) 
 # Specbzip
 
 |<h2></h2>|<h2>F</h2>|
@@ -486,7 +486,7 @@ Cost = 10\*cost\_L1\_data + 10\*cost\_L1\_instr + cost\_L2 + 10\*cost\_L1\_data\
 |run9|0.06042|
 |run10|0.0791|
 
-Άρα καλύτερη επιλογή για όλα run 1 κυρίως λόγω πολύ χαμηλού κόστους και καλού cpi, παρόλο που οι άλλες δοκιμές έχουν περισσότερη cache memory δεν έχουν καλύτερο cpi.
+So best choice for all run 1 mainly because of very low cost and good cpi, although the other tests have more cache memory they don't have better cpi.
 # Bibliography
 <https://www.gatevidyalay.com/cache-line-cache-line-size-cache-memory/>
 
